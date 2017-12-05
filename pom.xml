@@ -8,34 +8,32 @@
    <!-- <packaging>jar</packaging>
 -->
 
+    <properties>
+        <hibernate.version>5.2.2.Final</hibernate.version>
+    </properties>
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.8.2</version>
-            <scope>test</scope>
+            <version>4.12</version>
         </dependency>
-
+        <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
         <dependency>
-            <groupId>org.hibernate.javax.persistence</groupId>
-            <artifactId>hibernate-jpa-2.0-api</artifactId>
-            <scope>compile</scope>
-            <version>1.0.1.Final</version>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>9.4.1209.jre7</version>
         </dependency>
-
+        <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
-            <scope>provided</scope>
-            <version>4.0.0.Final</version>
+            <version>${hibernate.version}</version>
         </dependency>
-
-        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok-maven -->
         <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok-maven</artifactId>
-            <version>1.16.18.1</version>
-            <type>pom</type>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+            <version>${hibernate.version}</version>
         </dependency>
 
     </dependencies>
