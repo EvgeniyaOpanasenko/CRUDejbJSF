@@ -8,14 +8,16 @@ import java.util.List;
 @Local // or remote
 public interface EJBdataCRUDMEthods<T> {
 
-    public void save(T entity);
+    void save(T entity);
 
-    public void delete(T entity);
+    void delete(T entity);
 
-    public T find(int entityID);
+    T find(int entityID);
 
-    public T update(T entity);
+    T update(T entity);
 
-    public List<T> findAll();
+    List<T> findAll();
+
+    T findOneResult();
 
 }
