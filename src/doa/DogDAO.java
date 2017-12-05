@@ -16,4 +16,7 @@ public class DogDAO extends GenericDAO<Dog> {
     public DogDAO() {
     }
 
+    public Dog findOneResult() {
+        return null;
+    }
 }

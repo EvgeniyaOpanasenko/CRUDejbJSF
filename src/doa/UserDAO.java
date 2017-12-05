@@ -23,4 +23,8 @@ public class UserDAO extends GenericDAO<User> {
         parameters.put("email", email);
         return super.findOneResult(User.FIND_BY_EMAIL, parameters);
     }
+
+    public User findOneResult() {
+        return null;
+    }
 }
