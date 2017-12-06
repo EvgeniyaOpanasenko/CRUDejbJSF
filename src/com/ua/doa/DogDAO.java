@@ -1,10 +1,11 @@
-package doa;
+package com.ua.doa;
 
 import com.ua.model.Dog;
-import doa.generalizedDAO.GenericDAO;
+import com.ua.doa.generalizedDAO.GenericDAO;
 
 import javax.ejb.Stateless;
 
+//the same as @Repository
 
 @Stateless
 public class DogDAO extends GenericDAO<Dog> {

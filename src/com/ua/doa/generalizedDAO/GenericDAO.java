@@ -1,6 +1,6 @@
-package doa.generalizedDAO;
+package com.ua.doa.generalizedDAO;
 
-import doa.interfaces.EJBdataCRUDMEthods;
+import com.ua.doa.interfaces.EJBdataCRUDMEthods;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;

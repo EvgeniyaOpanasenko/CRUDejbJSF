@@ -1,16 +1,14 @@
 package com.ua.model;
 
-import org.hibernate.criterion.CriteriaQuery;
-
 import javax.persistence.*;
-import java.util.List;
 
+//model
 @Entity
 @Table(name = "DOGS")
 public class Dog {
 
     @Id
-    @GeneratedValue (strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
     private String name;

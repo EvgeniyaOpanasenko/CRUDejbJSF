@@ -1,7 +1,7 @@
 package facades;
 
 import com.ua.model.Dog;
-import doa.DogDAO;
+import com.ua.doa.DogDAO;
 import facades.interfaces.DogFacade;
 
 import javax.ejb.EJB;

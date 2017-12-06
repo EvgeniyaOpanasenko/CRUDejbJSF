@@ -1,7 +1,7 @@
-package doa;
+package com.ua.doa;
 
 import com.ua.model.User;
-import doa.generalizedDAO.GenericDAO;
+import com.ua.doa.generalizedDAO.GenericDAO;
 
 import javax.ejb.Stateless;
 import java.util.HashMap;

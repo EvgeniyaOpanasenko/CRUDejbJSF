@@ -1,7 +1,7 @@
 package facades;
 
 import com.ua.model.User;
-import doa.UserDAO;
+import com.ua.doa.UserDAO;
 import facades.interfaces.UserFacade;
 
 import javax.ejb.EJB;
